@@ -12,6 +12,7 @@ export const Button = ({
     children, 
     onClick,
 }) => {
+    console.log(type, checkSize, checkSize, children, onClick)
     //to give me the value by default
     const checkStyleButton = Styles.includes(checkStyle) ? checkStyle : Styles[0]; 
     const checkSizeButton = Sizes.includes(checkSize) ? checkSize : Sizes[0];
@@ -26,4 +27,6 @@ export const Button = ({
         </div>
     )
 }
+
+
 
