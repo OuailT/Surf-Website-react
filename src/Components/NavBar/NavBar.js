@@ -13,8 +13,7 @@ const NavBar = () =>  {
         <nav className="navbar">
             <div className="navbar-container">
                <Link to='/' className="navbar-logo">
-                WSL
-                 <i class='fab fa-typo3' />
+                DC
                </Link>
 
                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -33,7 +32,7 @@ const NavBar = () =>  {
 
                 <li className="nav-item">
                     <Link to='/' className="nav-links">
-                        Champions
+                        Our programs
                     </Link>
                 </li>
 
